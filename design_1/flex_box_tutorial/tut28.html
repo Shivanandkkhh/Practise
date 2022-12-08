@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex_box_tutorial</title>
+    <style>
+        .container{
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* flex-direction: row;*/
+            /* flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+            flex-wrap: wrap;
+
+        }
+        .box{
+            background-color:rgb(242, 183, 183);
+            margin: 10px;
+            border: 2px solid red;
+            padding: 5px;
+            width: 120px;
+            height: 130px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a flex_box_tutorial</h1>
+    <div class="container">
+        <div class="box" id="box-1">First box</div>
+        <div class="box" id="box-2">Second box</div>
+        <div class="box" id="box-3">Third box</div>
+        <div class="box" id="box-4">Fourth box</div>
+        <div class="box" id="box-5">Fifth box</div>
+        <div class="box" id="box-6">Sixth box</div>
+    </div>
+</body>
+</html>

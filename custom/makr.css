@@ -1,0 +1,57 @@
+.footer-text {
+    font-weight: 400;
+    line-height: 2.5;
+    color: #000000;
+}
+.subscribe {
+    line-height: 25px;
+    border-bottom: 1px solid #000000;
+}
+
+.f-font {
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.grace-text {
+    font-size: 18px;
+    color: #7692FF;
+    margin-bottom: 8%;
+}
+
+.feel-text {
+    color: #1E1E1E;
+    margin-top: 4.4%;
+}
+
+.relation-text {
+    margin-top: 3.4%;
+}
+
+.event-text,.realtion-heading,.grace-text,.subscribe {
+    font-weight: 800;
+}
+.relation-text,.feel-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.subscribe,.f-font,.footer-text {
+    font-size: 12px;
+}
+.realtion-heading,.event-text {
+    font-size: 30px;
+    color: #E85F5C;
+    line-height: 38px;
+}
+.relation-text,.f-font {
+    color: #F6F8F3;
+}
+.feel-text,.grace-text {
+    text-align: center;  
+}
+
+.f-font,.footer-text {
+    cursor: pointer;
+}

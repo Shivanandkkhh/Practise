@@ -1,0 +1,460 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*The above code is from myreweb  */
+
+/* section first stars here */
+.logo {
+	padding: 1.1% 0;
+}
+
+.text_center {
+	text-align: center;
+}
+
+/* Section first ends here */
+
+/* Sections second starts here */
+.hero_banner {
+	position: relative;
+}
+
+/* The below code is for make liner gradinent */
+.hero_banner::before {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	bottom: 0.7%;
+	left: 0%;
+	background: linear-gradient(90.04deg, #503504 0.04%, rgba(0, 0, 0, 0) 99.97%);
+	content: '';
+}
+
+/* The below code is for main image */
+.hero_banner img {
+	min-height: 639px;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* the below code is for hero image */
+.hero_content {
+	position: absolute;
+	top: 50%;
+	left: 5.4%;
+	transform: translate(0, -52.4%);
+	line-height: 0.9;
+}
+
+.hero_banner .hero_heading {
+	font-size: 80px;
+	width: 60%;
+	letter-spacing: -0.035em;
+}
+
+/* This is an common class which is related to hero heading,text,button and second section heading ,text and third section heading and button text */
+.cmn1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.hero_banner .herotext {
+	font-size: 16px;
+	line-height: 2;
+}
+
+.hero_button {
+	line-height:4;
+}
+
+.hero_button_text {
+	font-size: 16px;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	padding: 1.2% 4.45%;
+	cursor: pointer;
+}
+
+.hero_button_text:hover {
+	color: rgb(75, 113, 239);
+}
+
+/* the below code is for  hero button hover property*/
+
+.s_button:hover {
+	background-color: #503504;
+	color: #FFFFFF;
+}
+
+/* sections second ends here */
+
+/* third section stars here*/
+.third_section {
+	margin: 7.76% 5.4%;
+}
+
+/* the below class flex applies to both above and below conatainer*/
+
+.flex {
+	display: flex;
+	width: 100%;
+}
+
+.TS {
+	width: 50%;
+}
+
+.TS img {
+	width: 100%;
+	height: 100%;
+}
+
+/* the below box code is applies both 2 boxes in third section */
+.box {
+	width: 50%;
+	background: #503504;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box_heading {
+	font-size: 60px;
+	line-height: 100%;
+}
+
+.box_text {
+	font-size: 16px;
+	line-height: 2.5;
+}
+
+/* the above and blow common code ends here */
+/* third section ends here */
+
+/* Fourth section starts here*/
+
+.fourth_section {
+	margin: 7% 0;
+}
+
+/* The below code is for heading of ready for healthier skin */
+.f_heading {
+	font-size: 60px;
+	line-height: 85.99%;
+	color: #000000 !important;
+}
+
+/* the below code is for button container */
+.f_btn {
+	margin: 3.5%;
+}
+
+/* The below code is for button text */
+.f_button {
+	color: #FFFFFF;
+	background: #503504;
+}
+
+.f_button:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+}
+
+/* Fourth sectoin ends here*/
+
+/* The below code is for media screen 1204 pixel  */
+@media all and (max-width:1202px) {
+	.hero_banner .hero_heading {
+		font-size: 60px;
+		/* width: 60%; */
+	}
+
+	.hero_banner .herotext {
+		font-size: 14px;
+		line-height: 2;
+	}
+
+	.box_heading {
+		font-size: 40px;
+	}
+
+	.box_text {
+		font-size: 10px;
+	}
+
+}
+
+/* The above code 1172px ends here*/
+
+
+/* The below code is for media screen 768px  */
+
+@media all and (max-width:768px) {
+	.hero_banner .herotext {
+		line-height: 1;
+	}
+
+	.box_heading {
+		font-size: 30px;
+	}
+
+	.box_text {
+		font-size: 8px;
+	}
+}
+
+/* The above code 768px ends here*/
+
+/* The below code is for media screen 648px*/
+
+@media all and (max-width:648px) {
+
+	.hero_banner .hero_heading {
+		font-size: 50px;
+		width: 80%;
+	}
+
+	.hero_banner .herotext {
+		margin-top: 2%;
+		font-size: 14px;
+		width: 80%;
+	}
+
+	.hero_button {
+		line-height: 2;
+		margin-top: 4%;
+	}
+
+	.hero_button_text {
+		padding: 2% 8%;
+	}
+
+	.f_heading {
+		font-size: 46px;
+	}
+
+	.f_btn {
+		margin: 10% 0%;
+	}
+
+	.f_button {
+		font-size: 26px;
+		padding: 3% 15%;
+	}
+}
+
+/* The above code 648px ends here*/
+
+/* The below code is for media screen 500px*/
+
+@media all and (max-width:500px) {
+	.hero_content {
+		top: 80%;
+	}
+
+	.hero_banner .hero_heading {
+		font-size: 36px;
+		width: 90%;
+	}
+
+	.hero_banner .herotext {
+		margin-top: 4%;
+		font-size: 16px;
+		line-height: 1;
+	}
+
+	.hero_button {
+		margin-top: 2%;
+		line-height: 3.5;
+	}
+
+	.hero_button_text {
+		font-size: 16px;
+		padding: 2.9% 16.3%;
+	}
+
+	/* third section starts here */
+	.third_section {
+		width: 90%;
+	}
+
+	.above {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.below {
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+
+	.TS {
+		width: 100%;
+	}
+
+	.box {
+		height: 299px;
+		width: 100%;
+	}
+
+	.box_heading {
+		font-size: 36px;
+		margin: 0 10%;
+		text-align: center;
+	}
+
+	.box_text {
+		font-size: 16px;
+		margin: 4% 10%;
+		line-height: 1;
+		text-align: center;
+	}
+
+	.f_heading {
+		font-size: 36px;
+	}
+
+	.f_btn {
+		margin: 6%;
+	}
+}
+
+
+/* The above code 500px ends here* */

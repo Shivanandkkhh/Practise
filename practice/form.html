@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .f {
+            background-color: aquamarine;
+            width: 50%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is an HTML form</h1>
+    <form class="f" action="backend.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="text" value="Enter your name">
+        <br>
+        <br>
+        <label for="fdate">Enter your date of birth</label> <br>
+        <input type="date" id="date" value="Please select date of birth">
+        <br>
+        <br>
+        <h3>Please select your gender</h3>
+        <label for="fradio">Male</label>
+        <input type="radio" id="radio" name="gen" value="radio">
+        <br><label for="fradio">Female</label>
+        <input type="radio" id="radio" name="gen" value="radio">
+        <br>
+        <label for="fradio">Not specify</label>
+        <input type="radio" id="radio" name="gen" value="radio">
+        <br>
+        <br>
+        <label for="fcheck"> select checkbox</label> <br>
+        <input type="checkbox" id="check" value="check">
+        <br>
+        <br>
+        <label for="fpas">Enter your password</label>
+        <input type="password" id="password" value="">
+        <br>
+        <br>
+        <label for="fbutton">Clcik on the button </label>
+        <input type="button" id="button" value="button">
+        <br>
+        <br>
+        <label for="fmail">Enter your email here</label>
+        <input type="email" id="email" value="Your email">
+        <br>
+        <br>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" id="submit" value="submit">
+        <label for="fsub">Submit form here</label>
+        <br>
+        <br>
+        <label for="freset">Reset the page</label>
+        <input type="reset" id="reset" value="reset this page">
+        <br>
+        <br>
+
+    </form>
+
+</body>
+
+</html>

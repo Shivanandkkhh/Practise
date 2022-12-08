@@ -1,0 +1,380 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* the above code is injected by myreweb */
+
+
+
+.header {
+    text-align: center;
+    margin: 20px 0 15px 0;
+}
+
+@media all and (max-width:390px) {
+    .header {
+        margin: 20px 0 10px 0;
+        text-align: center;
+
+    }
+
+}
+
+
+/* first comtainer stars here */
+
+.banner_image {
+    background: linear-gradient(0deg, #936C01 0%, rgba(43, 17, 1, 0) 100%), url('/main_banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: cover; */
+    background-position: center;
+    height: 643px;
+    width: 100%;
+
+    border-radius: 0px;
+}
+
+@media all and (min-width:390px) {
+    .banner_image {
+        background: linear-gradient(0deg, #936C01 0%, rgba(43, 17, 1, 0) 100%), url('/main_banner-1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 643px;
+        width: 100%;
+    }
+
+}
+
+.first_section {
+    position: relative;
+    }
+
+
+.heading_on_banner {
+    font-family: 'Source Serif 4';
+    position: absolute;
+    width: 614px;
+    color: #FFF5D9;
+    height: 160px;
+    left: 350px;
+    top: 230px;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+@media all and (max-width:600px) {
+    .heading_on_banner {
+        display: flex;
+        left: 100px;
+        font-size: 60px;
+    }
+
+}
+
+.txt_on_banner {
+    font-family: 'Roboto';
+    position: absolute;
+    font-size: 17px;
+    padding-top: 415px;
+    top: 0px;
+    left: 380px;
+    color: white;
+    margin: 0px;
+    /* display: none; */
+}
+
+@media all and (max-width: 600px) {
+    .txt_on_banner {
+        display: flex;
+        padding-top: 380px;
+        left: 160px;
+        font-size: 18px;
+        width: 400px;
+    }
+
+}
+
+
+
+.button1 {
+    position: absolute;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    left: 520px;
+    top: 481px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2%;
+}
+
+@media all and (max-width: 600px) {
+    .button1 {
+        /* left: 10px; */
+        width: 150px;
+        height: 40px;
+        left: 250px;
+        top: 481px;
+        font-weight: normal;
+    }
+
+}
+
+.section_of_second_content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0 20px;
+    flex-wrap: wrap;
+}
+
+.text_brown_scetion {
+    padding-top: 50px;
+    height: 400px;
+    width: 600px;
+    background-color: #FFF5D9;
+}
+
+.text_brown_sofa {
+    color: brown;
+    position: relative;
+    top: 43px;
+    left: 100px;
+    font-size: 50px;
+}
+
+.txt_below_brownsofa {
+    position: relative;
+    font-family: 'roboto';
+    padding-top: 30px;
+    font-size: 20px;
+    top: 70px;
+    line-height: 30px;
+    left: 30px;
+    align-items: justify;
+    color: brown;
+    width: 300px;
+}
+
+.button2 {
+    position: relative;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    top: 121px;
+    left: 80px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #85452A;
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.img_brown_sofa {
+    position: relative;
+    display: wrap;
+    width: 100%;
+    object-fit: cover;
+    top: 0px;
+    width: 650px;
+    height: 448.08000000000004px;
+}
+
+/* second section ends here */
+
+/* the container of last section */
+.ready_for_section {
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 350px;
+}
+
+@media all and (max-width:600px) {
+    .ready_for_section {
+        margin-top: 40px;
+        align-items: center;
+        margin-left: 250px;
+    }
+
+}
+
+.ready_text {
+    color: brown;
+    font-size: 54px;
+}
+
+@media all and (max-width: 600px) {
+    .ready_text {
+        align-items: center;
+        font-size: 20px;
+        width: 100%;
+        left: 0px;
+    }
+
+}
+
+/* styling for ready for home buton */
+
+.button3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding: 10px;
+    background-color: #85452A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+    .button3 {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 80px;
+
+    }
+}
+
+
+.banner {
+    position: relative;
+}

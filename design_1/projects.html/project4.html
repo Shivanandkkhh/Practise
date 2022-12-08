@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project_3</title>
+    <style>
+        body {
+            background-image:linear-gradient(to bottom, rgba(252, 249, 245, 0.52), rgba(117, 19, 93, 0.73)),
+ url('https://cdn.mos.cms.futurecdn.net/MHrHHVELvZuFzvPiYKT6SB-970-80.jpg.webp');
+            background-size: 200vh;
+            /* background-repeat: no-repeat; */
+        }
+
+        .navbar {
+            background-color: rgb(12, 1, 1);
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            font-size: 30px;
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 3px;
+            text-decoration: none;
+            color: white;
+         }
+
+        .search {
+            float: right;
+            color: white;
+            margin: 20px;
+            padding: 12px 75px;
+        }
+        .nav {
+            position: sticky;
+            top: 0px;
+            z-index: 9;
+
+        }
+
+        ul li a:hover {
+            color: #ff7200;
+            transition: all 1s ease-in;
+
+
+        }
+
+        .article {
+            color: white;
+            margin: 80px 0 0 0;
+            font-size: 25px;
+        }
+
+        .article_heading {
+            color: white;
+            margin: 80px 0 0 0;
+            font-size: 40px;
+        }
+
+        #one {
+            color: #ff7200;
+            font-size: 60px;
+        }
+        .centered {
+            color: rgb(2, 2, 15);
+            font-weight: bold;
+            font-size: 30px;
+            position: absolute;
+            top: 730px;
+            left: 900px;
+        }
+
+        .btn {
+            border: 2px solid rgb(249, 224, 224);
+            background-color: rgb(249, 188, 188);
+            color: black;
+            height: 50px;
+            width: 50px;
+            border-radius: 5px;
+            background: rgb(234, 255, 0);
+            transition: all 1s ease-in-out 1s;
+        }
+
+        .btn:hover {
+            width: 300px;
+            height: 200px;
+            font-size: 40px;
+            border: 20px solid red;
+            border-radius: 10px;
+            background-color: rgb(0, 8, 255);
+        }
+        #heading_of_flexbox{
+            color: #ff7200;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .fbox {
+            display: flex;
+            border: 2px solid grey;
+            height: 25vh;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .fitem {
+            background-color: rgb(227, 156, 156);
+            border: 2px solid blueviolet;
+            margin: 12px;
+            width: 122px;
+            height: 122px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .fitem1 {
+            /* order: 1; */
+
+        }
+
+        .fitem2 {
+            /* order: 2; */
+
+        }
+
+        .fitem3 {
+            /* flex-grow: 1; */
+            /* flex-shrink: 2; */
+
+
+        }
+
+        .fitem4 {
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+            /* align-self: center; */
+            /* flex-basis: 30%; */
+
+
+        }
+
+        .foot {
+            text-align: center;
+            padding: 3px;
+            background-color: rgb(196, 198, 199);
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .foot ul {
+            list-style-type: none;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .foot li a {
+            text-decoration: none;
+            margin: 10px;
+        }
+
+      
+        .logo {
+            color: #ff7200;
+            font-size: 35px;
+            font-family: Arial;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-top: 5px
+        }
+
+        #id {
+            text-decoration: none;
+        }
+
+        .img {
+            border: 5px solid rgb(222, 233, 63);
+            margin: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <header>
+
+            <nav class="navbar">
+                <div class="icon">
+                    <h2 class="logo"> <img class="log"
+                            src="https://p.kindpng.com/picc/s/141-1415931_transparent-mesquite-tree-png-png-download.png"
+                            alt="" height="40" width="40"></h2>
+                </div>
+
+                <ul>
+                    <li><a href="/tabel1.html" target="_blank">Home</a></li>
+                    <li><a href="/tabel2.html" target="_blank">about</a></li>
+                    <li><a href="/table3.html" target="_blank">Services</a></li>
+                    <li><a href="/tabel 4.html" target="_blank">Contact us</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="search in this website">
+                    </div>
+                </ul>
+            </nav>
+    </div>
+    </header>
+    <div class="article_heading">
+        <p>This is an articles for <br> <span id="one">Save trees </span> <br> to control the globel warming</p>
+    </div>
+    <div class="article">
+        <p>
+            <span> From childhood,</span> we have heard that trees are our best friend but in practical life,<br> we
+            didn't see anyone who treats trees as their friends. Although they are the most <br> valuable life source on
+            the earth. They benefit every life form in a direct or indirect way.
+        </p>
+    </div>
+    <br>
+    <br>
+    <br> <br>
+
+    <h1 id="heading_of_flexbox">The below is flex box you will find articles related to save tree's</h1>
+    <div class="fbox">
+        <div class="img"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTShmbDMWcY1QRKDvausSf86P6qeyf2_D-tfjbZmf5&s"
+                alt=""> <button id="button" value="to know more"> <a
+                    href="https://www.google.com/aclk?sa=l&ai=DChcSEwjT4uq6hef6AhX-nUsFHf_QAeQYABAEGgJzZg&sig=AOD64_0mf9bxp7nGx8YWizHFqZzYOrGLRw&q&adurl&ved=2ahUKEwjboeO6hef6AhUD9zgGHdJHDZMQ0Qx6BAgGEAE"
+                    target="_blank"> Artticle by vanatata </a></button></div>
+        <div class="img"> <img
+                src="https://media.istockphoto.com/photos/bonsai-tree-picture-id184114153?k=20&m=184114153&s=612x612&w=0&h=rWv46iI0aP3F8tstnI7hR-UMrnmSZHznxbixUviw_n0="
+                alt="" height="130" width="140"> <button class="button" value="to know more"> <a
+                    href="https://www.google.com/aclk?sa=l&ai=DChcSEwjT4uq6hef6AhX-nUsFHf_QAeQYABAFGgJzZg&sig=AOD64_24wI4e97JLcfIYQpbqpnkJjt5iHg&q&adurl&ved=2ahUKEwjboeO6hef6AhUD9zgGHdJHDZMQ0Qx6BAgJEAE"
+                    target="_blank"> Article by tree _afayette</a></button></div>
+        <div class="img"> <img
+                src="https://media.istockphoto.com/photos/young-seedling-growing-out-of-soil-over-a-white-background-picture-id145922846?k=20&m=145922846&s=612x612&w=0&h=phgJyaQXwhJGM84uX_XaRlrqp9ApOgjVH6b-mHP6iNw="
+                alt="" height="130px" width="140"> <button class="button" value="know"> <a
+                    href="https://www.google.com/aclk?sa=l&ai=DChcSEwjT4uq6hef6AhX-nUsFHf_QAeQYABAAGgJzZg&sig=AOD64_0fxuRgqne75mpFk9BPScarFmBxFA&q&adurl&ved=2ahUKEwjboeO6hef6AhUD9zgGHdJHDZMQ0Qx6BAgFEAE"
+                    target="_blank"> Article by roundglass</a></button></div>
+        <div class="img"> <img
+                src="https://media.istockphoto.com/photos/small-green-bonsai-tree-in-a-brown-plant-pot-picture-id155908124?k=20&m=155908124&s=612x612&w=0&h=0At96-Ql9Vqz3AeFPlEKHSCPgYQ9Cl4oUhGtSMVW-jU="
+                alt="" height="130px" width="140"> <button class="button" value="knoww"><a
+                    href="https://www.google.com/aclk?sa=l&ai=DChcSEwjT4uq6hef6AhX-nUsFHf_QAeQYABADGgJzZg&sig=AOD64_2SBgrVjxQtSe4-9ZVixMammqXbzg&q&adurl&ved=2ahUKEwjboeO6hef6AhUD9zgGHdJHDZMQ0Qx6BAgHEAE"
+                    target="_blank">Article by Benchwatch network</a> </button></div>
+    </div>
+    <br>
+    <br>
+
+    <button class="btn" onclick="location.href='form.html'">Donate us </button>
+
+    <div class="b">
+        <h2>This is box layout
+    </div>
+    <br>
+    <footer class="foot">
+        <ul>
+            <li><a href="/tabel1.html" target="_blank">Home</a></li>
+            <li><a href="/tabel2.html" target="_blank">Know about us</a></li>
+            <li><a href="/table3.html" target="_blank">Explore more</a></li>
+            <li><a href="/tabel 4.html" target="_blank">Contact us on shivanand@shoptarde.co</a></li>
+
+        </ul>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

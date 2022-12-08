@@ -1,0 +1,812 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+@font-face {
+    font-family: 'Mont-SemiBold';
+    src: url(/assests/fonts/Mont-SemiBold.woff2);
+}
+
+body {
+    line-height: 1;
+    background: #F6F8F3;
+    font-family:'Mont-SemiBold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    /* z-index: 1; */
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* The code is imjected by myreweb */
+
+
+/* <!-- the first section conatains contact infomation starts here --> */
+
+.first-section {
+    background: #E85F5C;    
+    /* background: #7692FF; */
+    color: #ffff;
+}
+ 
+.container {
+    max-width: 1236px;
+    width: 100%;
+    margin: 0 auto;
+}
+.s-font{
+    color: #F5F8F3;
+    text-decoration: none;
+}
+.s-font:hover{
+    color: #7692FF !important;
+    text-decoration: underline;
+}
+
+
+.flex{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-decoration{
+    text-decoration: none;
+}
+
+
+.adj-text {
+    justify-content: center;
+    margin: 0 30% 0 15%;
+}
+
+/* <!-- The second section conatins the navigation bar starts here --> */
+.link_flex {
+    display: flex;
+    align-items: center;
+}
+.menu{
+    padding:0 0 4px 8px;
+}
+.content-flex {
+    padding: 17px 0;
+}
+
+.adj-font {
+    font-size: 14px !important;
+    line-height: 18px !important;
+}
+
+.d-none {
+    color: #000000;
+}
+
+.nav-btn {
+    color: #E85F5C !important;
+    background-color: #F6F8F3;
+    border-style: none;
+    width: 100px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btn:hover{
+    color: #7692FF;
+    border: 1px solid #7692FF;
+}
+
+.cur-point {
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.nav-section {
+    margin: 19px 0 35px 0;
+    position: sticky;
+    top: 0px;
+    z-index:0;    
+    background: #F6F8F3;
+}
+
+.nav-section li {
+    margin-right: 75px;
+    list-style: none;
+  
+}
+.nav-section li a{
+    text-decoration: none;
+    color: #000000;
+}
+.nav-section li a:hover{
+    text-decoration: underline;
+    border: none;
+}
+.link_flex img {
+    height: 70px;
+}
+
+.nav-section li:first-child {
+    margin-left: 0px;
+}
+
+.nav-section li:last-child {
+    margin-right: 0px;
+}
+.line-spacing{
+    line-height: 34px;
+}
+
+/* second section ends here */
+
+/*  */
+.footer-text {
+    font-weight: 400;
+    line-height: 2.5;
+    color: #000000;
+}
+.subscribe {
+    line-height: 25px;
+    border-bottom: 1px solid #000000;
+}
+
+.f-font {
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.grace-text {
+    font-size: 18px;
+    color: #7692FF;
+    margin-bottom: 8%;
+}
+
+.feel-text {
+    color: #1E1E1E;
+    margin-top: 4.4%;
+}
+
+.relation-text {
+    margin-top: 3.4%;
+}
+
+.event-text,.realtion-heading,.grace-text,.subscribe {
+    font-weight: 800;
+}
+.relation-text,.feel-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.subscribe,.f-font,.footer-text {
+    font-size: 12px;
+}
+.realtion-heading,.event-text {
+    font-size: 30px;
+    color: #E85F5C;
+    line-height: 38px;
+}
+.relation-text,.f-font {
+    color: #F6F8F3;
+}
+.feel-text,.grace-text {
+    text-align: center;  
+}
+
+.f-font,.footer-text {
+    cursor: pointer;
+}
+
+.top-margin{
+    margin-top: 18px;
+}
+.head-margin{
+    margin-top: 31px;
+}
+
+
+/*  */
+/* third section contains image and  text  */
+.margin-set {
+    margin: auto 20px;
+}
+
+.fi-text {
+    font-size: 14px !important;
+    color: #000000;
+}
+/* Hero banner image */
+.t-section {
+    background: url('../imagies/homepage-hero-image\ .png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 645px;
+    display: flex;
+    align-items: center;
+    padding: 0 72px;
+}
+
+.t1-section {
+    margin-bottom: 34px;
+
+}
+
+.hero_heading {
+    font-weight: 800 !important;
+    font-size: 55px !important;
+    color: #E85F5C;
+    line-height: 70px !important;
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+
+.t1-section a {
+    border: 1px solid #7692FF;
+    font-size: 14px !important;
+    line-height: 19px !important;
+}
+
+.btn {
+    padding: 18px 36.5px;
+    border-style: none;
+    background: none;
+    color: #7692FF;
+}
+.btn:hover{
+    color: #F5F8F3;
+    background-color: #E85F5C;
+    border: #E85F5C;
+}
+
+.f-section {
+    margin-top: 7.1%;
+}
+
+.make-center {
+    text-align: center;
+}
+
+.what-text,.feel-text,.relation-text,.footer-text {
+    font-family: 'Hind',Arial, Helvetica, sans-serif;
+}
+
+
+/* fifth section starts here */
+.fifth-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.set-img {
+    max-width: 340px;
+    padding: 0 20px;
+    margin-top: 80px;
+}
+
+.set-img img {
+    width: 100%;
+    height: auto;
+}
+
+.register-btn {
+    background: #E85F5C;
+    border: 1px solid #E8735C;
+    text-decoration: none;
+    width: 221px;
+    cursor: pointer;
+    height: 48px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #F6F8F3;
+}
+.register-btn:hover{
+    color: #7692FF;
+    border: 1px solid #7692FF;
+    background: transparent;
+}
+.btn-center {
+    margin: 5.2% 0 0 17%;
+}
+
+/* fifth section ends here */
+
+
+/* The sixth section is abanded */
+
+
+/* seventh section contains relation image and text */
+.seventh-section {
+    background: url('../imagies/better.together.scrapbook.couple.about.alt.webp');
+    min-height: 484px;
+    display: flex;
+    margin-top: 7.9%;
+    align-items: center;
+}
+
+.relation-section {
+    width: 40%;
+    margin-left: 38px;
+    padding: 40px 0;
+}
+
+/* seventh section ends here */
+/* Eight section conatine the life heading and vector imagies starts here */
+.bg-white {
+    background: #ffff;
+}
+
+
+.life {
+    margin-top: 4.95%;
+}
+
+.life-margin {
+    margin-top: 10px;
+}
+
+.shadow-text {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* eigth section ends here */
+/* ninth section conatins the vectors starts from here */
+.ninth-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 6.6%;
+    grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+
+}
+
+.vector img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vec-heading {
+    margin: 16px 0 0 0 !important;
+}
+
+.vec-txt {
+    font-size: 14px !important;
+    margin: 4px 0 0 0;
+}
+
+/* ninth section ends here */
+/* tenth section has we are text and image and text starts here */
+.tenth-section {
+    margin-top: 5.45%;
+}
+
+.we-heading {
+    width: 100%;
+    background: #E85F5C;
+    height: 12.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.underline a{
+    text-decoration: none;
+    color:#F5F8F3;
+}
+.underline a:hover{
+    color: blue;
+}
+.underline {
+    border-bottom: 2px solid #ffff;
+}
+ .underline a:hover{
+    border-bottom: 2px solid #7692FF;
+} 
+.we-txt {
+    color: #F5F8F3;
+}
+
+.flex-last {
+    display: flex;
+    width: 100%;
+    margin-top: 6.2%;
+}
+
+.flex-last img {
+    width: 50%;
+}
+
+.f-text {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.make-flex {
+    padding: 0 60px;
+}
+
+.no-center {
+    text-align: left;
+}
+
+.f-margin {
+    margin-top: 3.8% !important;
+}
+
+.f-event {
+    margin-top: 11% !important;
+}
+
+
+/* ninth section ends here */
+/* footer starts here */
+.above-hr {
+    margin-top: 6%;
+    border-top: 1px solid #E8735C;
+}
+
+.below-hr {
+    border: 1px solid #0a0a0a1d;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 99px 0 80px 0;
+}
+
+.footer-better-logo img {
+    width: 205px;
+    height: 28px;
+}
+
+.f-color a {
+    color: #7692FF;
+    font-size: 14px !important;
+    text-decoration: none;
+}
+.f-color a:hover{
+    text-decoration: underline;
+}
+
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m1-top {
+    margin: 10px 0 20px 0;
+}
+.footer-text a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-text a:hover{
+    text-decoration: underline;
+}
+
+.m-top {
+    margin: 20px 0;
+}
+
+.line {
+    text-align: left;
+    width: 60%;
+    border-bottom: 1px solid #000000;
+}
+
+.svg-logo {
+    padding-right: 15px;
+}
+
+.logos {
+    align-items: center;
+}
+
+.padding-btn {
+    margin: 0 20px;
+}
+
+.policy {
+    display: flex;
+    padding: 25px 0 23px 0;
+    justify-content: space-between;
+}
+
+.bolder {
+    font-weight: 800;
+}
+
+
+/* footer ends here */
+
+
+/* media query for 980 starts here */
+
+@media screen and (max-width:980px) {
+
+    .nav-section li {
+        margin-right: 50px;
+        list-style: none;
+    }
+
+    .adj-text {
+        display: none;
+    }
+}
+
+/* media query for 980 ends here */
+/* media query for 768 starts here */
+@media screen and (max-width:768px) {
+    .hero_heading {
+        margin: 30% 0 10% 0;
+        font-size: 36px !important;
+        line-height: 1.2 !important;
+        font-weight: 800 !important;
+        width: 90%;
+    }
+
+    .btn {
+        padding: 15px 26px;
+    }
+
+    .d-none {
+        display: none;
+    }
+
+    .nav-section li {
+        margin-right: 0px;
+        list-style: none;
+    }
+
+    .flex-last {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-last img {
+        width: 100%;
+    }
+
+    .f-event {
+        margin-top: 9% !important;
+    }
+
+    .t-section {
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .relation-section {
+        width: 80%;
+    }
+
+    .f-text {
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .make-flex {
+        margin-top: 10%;
+        padding: 0 10px;
+        min-width: 100%;
+    }
+
+    .footer-sub1,
+    .footer-sub3 {
+        grid-column: 1/2;
+    }
+
+    .footer-sub2,
+    .footer-sub4 {
+        grid-column: 3/5;
+    }
+}
+
+/* media query for 768 ends here */
+/* media query for 520 starts here */
+@media screen and (max-width:520px) {
+    .s-font {
+        font-size: 11px;
+    }
+
+    .link_flex img {
+        height: 40px;
+    }
+
+    .t-section {
+        padding: 0 20px;
+    }
+
+    .become {
+        margin-top: 77px;
+        grid-column: 1/2;
+    }
+
+    .btn-center {
+        margin: 5.2% 0 0 13%;
+
+    }
+
+    .seventh-section {
+        background-image: none;
+    }
+
+    .color-change {
+        color: #000000;
+        line-height: 1.5;
+        font-size: 16px;
+        text-shadow: none;
+        text-align: center;
+    }
+
+    .relation-section {
+        width: 100%;
+    }
+
+    .m-top {
+        margin: 5px 0 30px 0;
+    }
+
+    .policy {
+        flex-direction: column;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .footer-sub1,
+    .footer-sub2,
+    .footer-sub4 {
+        grid-column: 1/2;
+    }
+
+    .footer-sub3 {
+        grid-column: 2/5;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}
+
+/* media query for 520 ends here */

@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.logo {
+	text-align: center;
+	padding: 1.5% 0;
+
+}
+
+.hero_banner {
+	position: relative;
+}
+
+.hero_banner img {
+	min-height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.overlay {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	background: linear-gradient(90.04deg, #503504 0.04%, rgba(0, 0, 0, 0) 99.97%);
+}
+
+.hero_content {
+	position: absolute;
+	top: 35%;
+	left: 3%;
+}
+
+.hero_banner .hero_heading {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	letter-spacing: -0.035em;
+	color: #FFFFFF;
+	width: 60%;
+	line-height: 70px;
+}
+
+
+.hero_banner .herotext {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 3;
+	letter-spacing: -0.035em;
+	color: #FFFFFF;
+}
+
+.hero_button {
+	line-height: 3.5;
+
+}
+
+.hero_button_text {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.035em;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 1.1% 4%;
+}
+/* third section stars here*/
+.third_section {
+	margin: 5%;
+}
+
+.flex{
+	display: flex;
+	width: 100%;
+}
+
+.top_left {
+	width: 50%;
+}
+
+.top_left img {
+	width: 100%;
+}
+
+.box {
+	width: 50%;
+	background: #503504;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box_heading {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 100%;
+	letter-spacing: -0.035em;
+	color: #FFFFFF;
+}
+
+.box_text {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 2.5;
+	letter-spacing: -0.035em;
+	color: #FFFFFF;
+}
+
+.bottom_right {
+	width: 50%;
+}
+
+.bottom_right img{
+	width: 100%;
+}
+
+@media all and (max-width:400px) {
+	.above{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.below{
+		display: flex;
+		flex-direction: column-reverse;
+
+	}	
+}

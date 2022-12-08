@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and Mark-up</title>
+    <style>
+        .container{
+            margin: 43px 23px;
+            display: block;
+            width: 233px;
+            margin: auto;
+        }
+        input{
+            display: block;
+        }
+        input[type='text']{
+            padding: 23px;
+            border: 2px solid steelblue;
+        }
+        a[target]{
+            color: blueviolet;
+        }
+        a[target="_self"]{
+            color: rgb(176, 187, 49);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank" rel="noopener noreferrer">Go to google</a></h1>
+        <h1><a href="http://cricbuzz.com" target="_self" rel="noopener noreferrer">Go to cricbuzz</a></h1>
+        <form action="" class="form-control"></form>
+        <input type="text" placeholder="Enter your name">
+        <input type="password" placeholder="Enter your password">
+        <input type="submit" value="submit">
+
+    
+        <div class="item" id="item1">Item1</div>
+        <div class="item" id="item2">Item2</div>
+        <div class="item" id="item3">Item3</div>
+        <div class="item" id="item4">Item4</div>
+        <div class="item" id="item5">Item5</div>
+    </div>
+</body>
+</html>
